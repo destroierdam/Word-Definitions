@@ -6,5 +6,8 @@ class Entry
 	std::string definition;
 public:
 	Entry(const std::string& word, const std::string& definition);
+
+	std::string getWord() const;
+	std::string getDefinition() const;
 };
 
